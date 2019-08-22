@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import config from '../utils/config';
 import Seo from '../components/Seo';
@@ -17,7 +16,6 @@ export default class IndexPage extends React.Component {
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
-        <Link to="/contact">Contact</Link>
       </Layout>
     );
   }
